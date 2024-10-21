@@ -2,7 +2,7 @@
 @extends('layouts.app')
 
 <!-- crea sezione contentda inserire nel layout utilizzando @yeld -->
-@section('content')
-<h1>Welcome to the Home Page!</h1>
-<p>This is a simple homepage.</p>
+@section('content-2')
+<h1>Welcome to the Contact Page!</h1>
+<p>This is a simple contact.</p>
 @endsection

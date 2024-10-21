@@ -13,7 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Definisci la rotta per la homepage
 Route::get('/', function () {
-    $name = "John";
-    return view('home', ['name' => $name]);
-});
+    return view('home');
+})->name('home');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
